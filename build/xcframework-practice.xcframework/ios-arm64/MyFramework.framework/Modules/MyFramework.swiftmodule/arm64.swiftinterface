@@ -5,6 +5,8 @@ import Foundation
 @_exported import MyFramework
 import Swift
 import _Concurrency
-@_hasMissingDesignatedInitializers public class PublicObject {
+public class PublicObject {
+  final public let value: Swift.String
+  public init()
   @objc deinit
 }

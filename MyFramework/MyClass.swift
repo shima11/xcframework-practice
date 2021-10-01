@@ -8,7 +8,10 @@
 import Foundation
 
 public class PublicObject {
+  public let value = "public"
+  public init() {
 
+  }
 }
 
 internal class InternalObject {
