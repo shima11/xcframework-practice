@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		049742F42707654D00710C21 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 049742F32707654D00710C21 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		049742F927076C5000710C21 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049742F827076C5000710C21 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		049742F02707654D00710C21 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049742F32707654D00710C21 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
+		049742F827076C5000710C21 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				049742F32707654D00710C21 /* MyFramework.h */,
+				049742F827076C5000710C21 /* MyClass.swift */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					049742EF2707654D00710C21 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049742F927076C5000710C21 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
